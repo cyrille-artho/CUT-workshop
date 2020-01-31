@@ -9,7 +9,8 @@ Feb 2020 workshop at CUT in Bloemfontein, South Africa
 # Tuesday
 ## Testing Software: From Unit Testing to Model-based Testing
 
-* [Slides](mbt.pdf)
+* [Slides: IoT testing](enase-2019.pdf)
+* [Slides: Modbat Tutorial](mbt.pdf)
 * [Modbat](https://github.com/cyrille-artho/modbat/)
 * [Tutorial](https://github.com/cyrille-artho/modbat/tree/master/src/test/scala/modbat/tutorial)
 
