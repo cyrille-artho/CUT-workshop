@@ -12,7 +12,7 @@ Feb 2020 workshop at CUT in Bloemfontein, South Africa
 Installation in **Git bash**:
 
 ```bash
-git https://github.com/cyrille-artho/modbat.git
+git clone https://github.com/cyrille-artho/modbat.git
 cd modbat
 ./gradlew assemble
 cd src/test/scala/modbat/tutorial
