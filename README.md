@@ -9,7 +9,7 @@ Feb 2020 workshop at CUT in Bloemfontein, South Africa
 # Tuesday
 ## Testing Software: From Unit Testing to Model-based Testing
 
-Installation:
+Installation in **Git bash**:
 
 ```bash
 git clone git@github.com:cyrille-artho/modbat.git
