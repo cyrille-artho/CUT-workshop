@@ -17,7 +17,7 @@ Feb 2020 workshop at CUT in Bloemfontein, South Africa
 # Wednesday
 ## Java Pathfinder
 
-How to configure the environment in the CUT computer labs:
+How to configure the environment in the CUT computer labs using **Git bash**:
 
 ```bash
 mkdir ~/jpf
