@@ -12,7 +12,7 @@ Feb 2020 workshop at CUT in Bloemfontein, South Africa
 Installation in **Git bash**:
 
 ```bash
-git clone git@github.com:cyrille-artho/modbat.git
+git https://github.com/cyrille-artho/modbat.git
 cd modbat
 ./gradlew assemble
 cd src/test/scala/modbat/tutorial
@@ -31,7 +31,7 @@ How to configure the environment in the CUT computer labs using **Git bash**:
 ```bash
 mkdir ~/jpf
 cd ~/jpf
-git clone git@github.com:javapathfinder/jpf-core.git
+git clone https://github.com/javapathfinder/jpf-core.git
 cd jpf-core
 git show 46ae > patch
 patch -p1 < patch
