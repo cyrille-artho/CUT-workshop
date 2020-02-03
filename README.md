@@ -17,6 +17,20 @@ Feb 2020 workshop at CUT in Bloemfontein, South Africa
 # Wednesday
 ## Java Pathfinder
 
+How to configure the environment in the CUT computer labs:
+
+```bash
+mkdir ~/jpf
+cd ~/jpf
+git clone git@github.com:javapathfinder/jpf-core.git
+cd jpf-core
+git show 46ae > patch
+patch -p1 < patch
+./gradlew
+
+export PATH=$PATH:/c/Program\ Files/Java/jdk1.8.0_162/bin
+```
+
 * [Slides](jpf-intro-1.pdf)
 * [Java Pathfinder](https://github.com/javapathfinder/jpf-core/)
 * [Dining philosophers source](diningphil.tar.gz) (.tar.gz)
