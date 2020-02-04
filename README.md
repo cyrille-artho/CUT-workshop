@@ -60,17 +60,19 @@ cd diningphil/src
 
 ### Concurrent queue
 
-To download and run:
+To download:
 
 ```bash
 cd
 curl https://cyrille-artho.github.io/CUT-workshop/queue.tar.gz -O
 tar -xzf queue.tar.gz
 cd queue/src
-./build.sh
-./run.sh TestQueue
-./run.sh ProdCons
 ```
+
+To compile: `./build.sh`
+
+To run the **simple test case**: `./run.sh QueueTest`
+To run the **producer/consumer test case**: `./run.sh ProdCons`
 
 ### Concurrent queue with a flaw
 
@@ -81,7 +83,9 @@ cd
 curl https://cyrille-artho.github.io/CUT-workshop/queue-notify.tar.gz -O
 tar -xzf queue-notify.tar.gz
 cd queue-notify/src
-./build.sh
-./run.sh TestQueue
-./run.sh ProdCons
 ```
+
+To compile: `./build.sh`
+
+To run the **simple test case**: `./run.sh QueueTest`
+To run the **producer/consumer test case**: `./run.sh ProdCons`
