@@ -45,3 +45,43 @@ export PATH=$PATH:/c/Program\ Files/Java/jdk1.8.0_162/bin
 * [Dining philosophers source](diningphil.tar.gz) (.tar.gz)
 * [Concurrent queue source](queue.tar.gz) (.tar.gz)
 * [Concurrent queue source with flaw](queue-notify.tar.gz) (.tar.gz)
+
+### Dining philosophers:
+
+To download and run:
+
+```bash
+cd
+curl https://cyrille-artho.github.io/CUT-workshop/diningphil.tar.gz -O
+tar -xzf diningphil.tar.gz
+cd diningphil/src
+./build.sh && ./run.sh
+```
+
+### Concurrent queue
+
+To download and run:
+
+```bash
+cd
+curl https://cyrille-artho.github.io/CUT-workshop/queue.tar.gz -O
+tar -xzf queue.tar.gz
+cd queue/src
+./build.sh
+./run.sh TestQueue
+./run.sh ProdCons
+```
+
+### Concurrent queue with a flaw
+
+To download and run:
+
+```bash
+cd
+curl https://cyrille-artho.github.io/CUT-workshop/queue-notify.tar.gz -O
+tar -xzf queue-notify.tar.gz
+cd queue-notify/src
+./build.sh
+./run.sh TestQueue
+./run.sh ProdCons
+```
