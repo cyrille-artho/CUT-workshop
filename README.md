@@ -69,10 +69,11 @@ tar -xzf queue.tar.gz
 cd queue/src
 ```
 
-To compile: `./build.sh`
+* To compile: `./build.sh`
 
-To run the **simple test case**: `./run.sh QueueTest`
-To run the **producer/consumer test case**: `./run.sh ProdCons`
+* To run the **simple test case**: `./run.sh QueueTest`
+
+* To run the **producer/consumer test case**: `./run.sh ProdCons`
 
 ### Concurrent queue with a flaw
 
@@ -85,7 +86,8 @@ tar -xzf queue-notify.tar.gz
 cd queue-notify/src
 ```
 
-To compile: `./build.sh`
+* To compile: `./build.sh`
 
-To run the **simple test case**: `./run.sh QueueTest`
-To run the **producer/consumer test case**: `./run.sh ProdCons`
+* To run the **simple test case**: `./run.sh QueueTest`
+
+* To run the **producer/consumer test case**: `./run.sh ProdCons`
