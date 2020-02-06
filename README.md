@@ -2,12 +2,12 @@
 Feb 2020 workshop at CUT in Bloemfontein, South Africa
 
 # Monday
-## Software verification with code and models
+## Software verification with code and models (Cyrille Artho)
 
 * [Slides](verif-intro.pdf)
 
 # Tuesday
-## Testing Software: From Unit Testing to Model-based Testing
+## Testing Software: From Unit Testing to Model-based Testing (Cyrille Artho)
 
 Installation in **Git bash**:
 
@@ -24,7 +24,7 @@ cd src/test/scala/modbat/tutorial
 * [Tutorial](https://github.com/cyrille-artho/modbat/tree/master/src/test/scala/modbat/tutorial)
 
 # Wednesday
-## Java Pathfinder
+## Java Pathfinder (Cyrille Artho)
 
 How to configure the environment in the CUT computer labs using **Git bash**:
 
